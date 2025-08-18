@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 export default function QiymetCedveli() {
 
-  const BASE_URL = "https://teacher-data-info-front.onrender.com"
+  const BASE_URL = "https://teacher-data-system-api.onrender.com"
   const [teacherName, setTeacherName] = useState("")
   const [teacherLastName, setTeacherLastName] = useState("")
   const [departments, setDepartments] = useState([])
