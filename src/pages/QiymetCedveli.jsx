@@ -109,7 +109,14 @@ export default function QiymetCedveli() {
                   <td>{index + 1}</td>
                   <td>{d.code}</td>
                   <td>{d.type}</td>
-                  <td><a onClick={() => handleDepartmentClick(d.id)} href="https://teacher-data-info-front.onrender.com/qiymet-cedveli/class">{d.name}</a></td>
+                  <td>
+                  <Link 
+                    to="/qiymet-cedveli/class"
+                      onClick={() => handleDepartmentClick(d.id)}
+                    >
+                      {d.name}
+                    </Link>
+                  </td>
                   <td>{d.number}</td>
                   <td>{d.lectures}</td>
                   <td>{d.exercise}</td>
