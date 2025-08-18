@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react"; 
 
 export default function QiymetCedveli() {
-  const BASE_URL = "http://localhost:8080"
+  const BASE_URL = "https://teacher-data-info-front.onrender.com"
   const [teacherName, setTeacherName] = useState("")
   const [teacherLastName, setTeacherLastName] = useState("")
   const [departments, setDepartments] = useState([])

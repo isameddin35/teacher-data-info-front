@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-let BASE_URL = "http://localhost:8080/auth/login"
+let BASE_URL = "https://teacher-data-info-front.onrender.com/auth/login"
 
 
 export default function Login() {
