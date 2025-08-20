@@ -19,7 +19,7 @@ export default function QiymetCedveli() {
         setTeacherLastName(dbTeacher.lastName);
 
         const dbDepartmentId = localStorage.getItem("selectedDepartment");
-        const getStudents = await axios.post(`${BASE_URL}/department/get-students/${dbDepartmentId}`);
+        const getStudents = await axios.get(`${BASE_URL}/department/get-students/${dbDepartmentId}`);
 
         const preparedStudents = getStudents.data.map(s => ({
           ...s,
