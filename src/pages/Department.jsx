@@ -138,7 +138,7 @@ export default function QiymetCedveli() {
               className="btn btn-primary w-100"
               onClick={() => {
                 localStorage.clear();
-                window.location.href = `${BASE_URL}/auth`;
+                window.location.href = BASE_URL;
               }}
             >
               Çıxış et
