@@ -78,7 +78,7 @@ export default function QiymetCedveli() {
               className="btn btn-primary w-100"
               onClick={() => {
                 localStorage.clear();
-                window.location.href = "http://localhost:5173";
+                window.location.href = "https://teacher-data-info-front.onrender.com";
               }}
             >
               Çıxış et
